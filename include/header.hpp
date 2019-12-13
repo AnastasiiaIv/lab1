@@ -1,5 +1,3 @@
-// Copyright 2018 Your Name <your_email>
-
 #ifndef INCLUDE_HEADER_HPP_
 #define INCLUDE_HEADER_HPP_
 #include <header.hpp>
@@ -11,7 +9,7 @@
 #include <any>
 #include <fstream>
 
-//using namespace std;
+
 using std::any;
 using std::vector;
 using std::cout;
@@ -19,8 +17,7 @@ using std::string;
 using std::map;
 using std::ifstream;
 using std::any_cast;
-//#include "json.hpp"
-//using json=nlohmann::json;
+
 
 class Json {
 public:
