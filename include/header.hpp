@@ -34,7 +34,6 @@ explicit Json(const string &s) {
         _data = s;
     }
 
-    map<string, any> _field;
 
     bool is_object() {
         int i = 0;
@@ -206,7 +205,6 @@ explicit Json(const string &s) {
         string key;
         while (_data[_current_pos] != '}') {
             key = get_key();
-            //cout<<key<<": ";
             _keys.push_back(key);
             meaning = get_the_meaning();
             _meanings.push_back(meaning);
